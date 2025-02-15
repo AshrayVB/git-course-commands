@@ -75,7 +75,7 @@ git push -u origin master
   git commit -m "Initial commit"
   cat ~/.ssh/id_ed25519.pub
   ssh -T git@github.com
-  git remote add origin git@github.com:AshrayVB/git-course-commands.git
+  git remote add origin git@github.com:your_username/my-project-repo.git
   git push -u origin main
   git log
 
