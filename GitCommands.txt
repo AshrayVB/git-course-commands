@@ -1,0 +1,38 @@
+Installtion:
+
+1. Open browser: https://git-scm.com/downloads
+2. Download the git 
+3. Open installed Git 
+4. Make setup the the git 
+
+Commands to check the version of the Git
+> git --version
+> git config
+> git config --global --list
+
+Setup for --global --list
+> git config --global user.name "name"
+> git config --global user.email "email_id"
+
+
+First Project
+  create local repo
+    > git status
+    > git init
+    > git init -b main
+
+    Commit 
+    > git add filename.txt
+    > git log
+    > git commit -m "message/changes what you have done..."
+    > git log
+
+    Git skipping and staging area
+    > git status
+    > git add filename.txt
+    > git commit -m "second commit"
+    > git log
+    > git commit -a -m "third commit"
+
+    Git diff
+    > 
