@@ -8,20 +8,16 @@
 4. Follow the setup instructions to install Git
 
 ## Commands to Check Git Version and Configuration
-
-```sh
 git --version
 git config
 git config --global --list
 
 
 ## Setup Global Configuration
-```sh
 git config --global user.name "name"
 git config --global user.email "email_id"
 
 ## Repository Initialization and Branch Setup
-```sh
 # Initialize the repository with the 'main' branch
 git init -b main
 
