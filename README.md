@@ -64,7 +64,6 @@ git push -u origin master
     git commit -m "removed the unwanted files"
 
 ## Connenting to GitHub Repository
-```sh
   git init
   git remote add origin git@github.com:your_username/my-project-repo.git
   git remote -v
