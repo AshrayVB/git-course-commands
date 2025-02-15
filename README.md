@@ -1,6 +1,7 @@
 # Git and GitHub Guide
 
 ## Installation
+```sh
 
 1. Open browser: [Git Download Page](https://git-scm.com/downloads)
 2. Download Git
@@ -30,8 +31,7 @@ git push origin --delete main
 # Push the 'master' branch and set the upstream
 git push -u origin master
 
-## First Project
-```sh 
+# First Project
   # Create Local Repo
     git status
     git init
@@ -59,7 +59,7 @@ git push -u origin master
     git status
     git commit -m "removed the unwanted files"
 
-## Connenting to GitHub Repository
+# Connecting to GitHub Repository
   git init
   git remote add origin git@github.com:your_username/my-project-repo.git
   git remote -v
